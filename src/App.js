@@ -6,7 +6,7 @@ import ColourCircle from './components/ColourCircle'
 function App() {
   return (
     <div className="App">
-      <ColourCircle></ColourCircle>
+      <ColourCircle colour='green'></ColourCircle>
     </div>
   );
 }

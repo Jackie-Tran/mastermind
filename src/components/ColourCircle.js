@@ -2,22 +2,22 @@ import React, { Component } from 'react'
 
 export default class ColourCircle extends Component {
 
-  state = {
-    colour: 'colourName'
+  getButtonStyle = () => {
+    
+    console.log("'" + this.props.colour + "'");
+    return {
+      border: 'none',
+      borderRadius: '50%',
+      backgroundColor: this.props.colour,
+      width: '20px',
+      height: '20px',
+    }
   }
 
   render() {
     return (
-      <button style={style}></button>
+      <button style={this.getButtonStyle()}></button>
     )
   }
 
-}
-
-const style = {
-  border: 'none',
-  borderRadius: '50%',
-  backgroundColor: 'green',
-  width: '20px',
-  height: '20px',
 }
