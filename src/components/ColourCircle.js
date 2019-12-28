@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
 
+/*
+  This component can only use colors in css
+*/
+
 export default class ColourCircle extends Component {
 
   getButtonStyle = () => {
-    
-    console.log("'" + this.props.colour + "'");
     return {
       border: 'none',
       borderRadius: '50%',
-      backgroundColor: this.props.colour,
+      backgroundColor: this.props.color,
       width: '20px',
       height: '20px',
     }
