@@ -4,7 +4,7 @@ import React, { Component } from 'react'
   This component can only use colors in css
 */
 
-export default class ColourCircle extends Component {
+export default class ColorCircle extends Component {
 
   getButtonStyle = () => {
     return {
