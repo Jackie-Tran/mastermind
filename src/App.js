@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ColourCircle from './components/ColourCircle'
 
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom'
 
