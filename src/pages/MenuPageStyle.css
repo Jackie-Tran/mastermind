@@ -1,0 +1,96 @@
+.Page {
+    text-align: center;
+    background-color: #3b5295;
+    min-height: 100vh;
+}
+
+.Title {
+    color: #d5d6da;
+    text-align: center;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    margin: -100px 0 0 -200px;
+    top: 50%;
+    left: 50%;
+}
+
+.TitleText {
+    font-size: 300%
+}
+
+.Image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%
+}
+
+.Credit {
+    text-align: right
+}
+
+.Buttons {
+    text-align: center;
+}
+
+
+/* Third Button */
+
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #BFC0C0;
+    margin: 20px 20px 20px 20px;
+    color: #BFC0C0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+a {
+    color: #BFC0C0;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#button-3 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#button-3 a {
+    position: relative;
+    transition: all .45s ease-Out;
+}
+
+#circle {
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #BFC0C0;
+    position: absolute;
+    transition: all .5s ease-Out;
+    top: 20px;
+    left: 70px;
+}
+
+#button-3:hover #circle {
+    width: 200%;
+    height: 500%;
+    opacity: 1;
+    top: -70px;
+    left: -70px;
+}
+
+#button-3:hover a {
+    color: #2D3142;
+}
