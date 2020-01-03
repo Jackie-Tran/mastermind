@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom'
@@ -18,9 +17,10 @@ function App() {
         <Route exact path="/instruction" component={InstructionPage} />
         <Route exact path="/game" component={GamePage} />
         <Route exact path="/404" component={NotFoundPage} />
-        <Redirect to="/404"/>
+        <Redirect to="/404" />
       </Switch>
     </Router>
+
   );
 }
 
