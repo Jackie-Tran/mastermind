@@ -15,9 +15,6 @@ export default class MenuPage extends Component {
                         <h4>Game Remade By</h4>
                         <h5>Jackie Tran | Derek Khau | Michael Lam</h5>
                     </div>
-                </div>
-
-                <div className="Buttons">
                     <div className="button" id="button-3">
                         <div id="circle"></div>
                         <Link to="/game">Play</Link>
@@ -27,6 +24,8 @@ export default class MenuPage extends Component {
                         <Link to="/rules">Rules</Link>
                     </div>
                 </div>
+
+
             </div>
         )
     }
