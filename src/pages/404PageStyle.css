@@ -1,0 +1,26 @@
+body {
+    background-color: #3b5295;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.content h1 {
+    color: #adcbe3;
+    font-weight: bold;
+    font-size: 300%;
+}
+
+.content p {
+    color: #e7eff6;
+    font-weight: bold;
+    font-size: 150%;
+}
