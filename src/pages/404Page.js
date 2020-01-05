@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import './404PageStyle.css'
+import './stylesheets/404PageStyle.css'
 import { Link } from 'react-router-dom'
 
 export default class NotFoundPage extends Component {

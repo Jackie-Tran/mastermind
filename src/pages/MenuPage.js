@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './MenuPageStyle.css'
+import './stylesheets/MenuPageStyle.css'
 import { Link } from 'react-router-dom';
 import circles from '../images/menuColors.png';
 
