@@ -1,0 +1,62 @@
+body {
+    background-color: #3b5295;
+}
+
+#git {
+    color: #63ace5;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.content h1 {
+    color: #adcbe3;
+    font-weight: bold;
+    font-size: 300%;
+}
+
+.content p {
+    color: #e7eff6;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+/* Second Button */
+
+#button-2 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#button-2 a {
+    position: relative;
+    transition: all .35s ease-Out;
+}
+
+#slide {
+    width: 100%;
+    height: 100%;
+    left: -200px;
+    background: #BFC0C0;
+    position: absolute;
+    transition: all .35s ease-Out;
+    bottom: 0;
+}
+
+#button-2:hover #slide {
+    left: 0;
+}
+
+#button-2:hover a {
+    color: #2D3142;
+}
