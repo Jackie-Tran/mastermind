@@ -9,4 +9,8 @@ export default class BigCircle extends Component {
 }
 
 const style = {
+    borderRadius: '50%',
+    width: '20px',
+    height: '20px',
+    display: 'inline-block'
 }

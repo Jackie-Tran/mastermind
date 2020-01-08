@@ -14,17 +14,6 @@ export default class GamePage extends Component {
                 <Link to="/">Home</Link>
                 <div id='board'>
                     <Row></Row>
-                    <Row></Row>
-                    <Row></Row>
-                    <Row></Row>
-                    <Row></Row>
-                    <Row></Row>
-                    <Row></Row>
-                    <Row></Row>
-                    <Row></Row>
-                    <Row></Row>
-                    <Row></Row>
-                    <Row></Row>
                 </div>
             </div>
         )
