@@ -1,0 +1,13 @@
+#board {
+    background: white;
+    height: 80vh;
+}
+
+body {
+    color: #d5d6da;
+    text-align: center;
+}
+
+h1 {
+    font-size: 300%;
+}
